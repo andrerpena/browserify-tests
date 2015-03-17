@@ -37,7 +37,7 @@ In order to generate the bundle:
 
 > $ browserify ./lib/main.js > bundle.js
 
-This should do it. The `> bundle.js` instruction tells Broserify to output the bundle to the given file. If this parameter is not provider, Browserify will just output the bundle to `stdout`.
+This should do it. The `> bundle.js` instruction tells Broserify to output the bundle to the given file. If this parameter is not provided, Browserify will just output the bundle to `stdout`.
 
 To verify that the bundle works correctly:
 
