@@ -46,11 +46,3 @@ To verify that the bundle works correctly:
 And that should output:
 
 > this is working fine
-
-
-
-![enter image description here][1]
-
-
-  [1]: http://i.stack.imgur.com/xonh6.png
-
