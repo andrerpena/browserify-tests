@@ -31,7 +31,7 @@ The sample project contains 3 modules, in the `lib` directory. Every module shou
  passed to `module.exports` represents the module itself. In the sample project, there are 2 modules, `logger.js` and `emailSender.js`, and `logger.js` depends on `emailSender.js`.
 
 When compiling a Browserify bundle, you can choose one ore more entry points. In our case, the entry point is `main.js`. Browserify is supposed to detect that `main.js` depends on `logger.js`
-and that the later, in turn, depends on `emailSender.js`. Browser should, then, generate the output bundle.
+and that the later, in turn, depends on `emailSender.js`. Browserify should, then, generate the output bundle.
 
 In order to generate the bundle:
 
